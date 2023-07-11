@@ -126,11 +126,40 @@
     margin-bottom: 40px;
 }
 
-.subscription input[type="text"] {
+.subscription input[type="text"]{
     width: 600px;
     height: 64px;
     font-size: 18px;
     border-radius: 8px;
     background: #FFF;
     color: white;
+    padding-left: 20px;
+}
+
+.footer-area{
+    background: #111010;
+    margin-top: 100px;
+    text-align: center;
+    padding: 100px;
+}
+
+.footer-title{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px;
+    line-height: 25px;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
