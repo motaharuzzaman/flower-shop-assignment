@@ -9,7 +9,7 @@
     justify-content: space-around;
     height: 100vh;
     align-items: center;
-    background: rgba(229, 84, 115, 0.20);
+    background: rgba(167, 33, 98, 0.15);
     background-size: contain;
 }
 
@@ -47,6 +47,8 @@
 .featured{
     text-align: center;
     padding-top: 80px;
+    margin: 50px 150px 100px 150px;
+    gap: 50px;
 }
 
 .featured-title{
@@ -59,7 +61,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 50px 150px 100px 150px;
+    /* margin: 50px 150px 100px 150px; */
     font-size: 25px;
     font-weight: 700;
     line-height: 35px;
@@ -72,13 +74,28 @@
     font-weight: 400;
     line-height: 30px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .featured-image img {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    width: 400px;
+    width: 450px;
     height: 600px;
+}
+
+.delivery-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(167, 33, 98, 0.15);
+    margin: 0px 170px 100px 170px;
+    padding: 80px;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
 }
 
 .hot-deal-container{
@@ -86,7 +103,7 @@
     justify-content: space-around;
     height: 60vh;
     align-items: center;
-    background: rgba(229, 84, 115, 0.20);
+    background: rgba(167, 33, 98, 0.15);
 }
 
 .hot-deal-text{
