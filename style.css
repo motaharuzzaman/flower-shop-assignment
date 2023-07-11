@@ -155,6 +155,29 @@
     margin: 50px 170px 100px 170px;
 }
 
+.facebook-title{
+    margin-top: 50px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.facebook-description{
+    margin: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.facebook-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 170px 100px 170px;
+}
+
 .latest-deal{
     margin-left: 178px;
     width: 1440px;
