@@ -48,7 +48,7 @@
 .hot-deal-container{
     display: flex;
     justify-content: space-around;
-    height: 70vh;
+    height: 60vh;
     align-items: center;
     background: rgba(229, 84, 115, 0.20);
 }
