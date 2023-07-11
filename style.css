@@ -17,7 +17,6 @@
 .banner-head-text{
     margin: 10px 50px 0px 0px;
     color: #272727;
-    font-family: Lato;
     font-size: 80px;
     font-style: normal;
     font-weight: 800;
@@ -26,7 +25,6 @@
 .banner-description{
     margin: 20px 0px;
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -37,7 +35,6 @@
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
-    font-family: Lato;
     font-size: 20px;
     font-weight: 700;
 }
@@ -54,8 +51,6 @@
     height: 70vh;
     align-items: center;
     background: rgba(229, 84, 115, 0.20);
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .hot-deal-text{
@@ -65,14 +60,12 @@
 .hot-deal-description{
     margin: 20px;
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
 }
 
 .hot-deal-title{
     color: #272727;
-    font-family: Lato;
     font-size: 40px;
     font-weight: 800;
 }
@@ -82,7 +75,6 @@
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
-    font-family: Lato;
     font-size: 20px;
     font-weight: 700;
 }
@@ -91,7 +83,6 @@
     margin-top: 50px;
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 40px;
     font-weight: 800;
 }
@@ -100,7 +91,6 @@
     margin: 20px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
 }
@@ -109,5 +99,38 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 50px 170px 50px 170px;
+    margin: 50px 170px 100px 170px;
+}
+
+.latest-deal{
+    margin-left: 178px;
+    width: 1440px;
+    height: 449px;
+    text-align: center;
+    background-image: url(./images/Rectangle\ 9.png);
+}
+
+.latest-deal-title{
+    padding-top: 150px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 15px;
+    margin-bottom: 40px;
+}
+
+.subscription input[type="text"] {
+    width: 600px;
+    height: 64px;
+    font-size: 18px;
+    border-radius: 8px;
+    background: #FFF;
+    color: white;
 }
